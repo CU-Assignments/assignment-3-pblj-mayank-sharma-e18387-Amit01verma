@@ -1,0 +1,68 @@
+Problem 1: Square Root Calculation
+
+Input 1:
+Enter a number: 25
+Output 1:
+The square root of 25.0 is: 5.0
+
+Input 2:
+Enter a number: -16
+Output 2:
+Error: Cannot calculate the square root of a negative number.
+
+Input 3:
+Enter a number: abc
+Output 3:
+Error: Invalid input. Please enter a numeric value.
+
+
+Problem 2: ATM Withdrawal System
+
+Input 1:
+Enter PIN: 1234
+Enter withdrawal amount: 1000
+Output 1:
+Withdrawal successful. Current Balance: 2000
+Remaining Balance: 2000
+
+Input 2:
+Enter PIN: 1111
+Error: Invalid PIN.
+Current Balance: 3000
+Remaining Balance: 3000
+
+Input 3:
+Enter PIN: 1234
+Enter withdrawal amount: 5000
+Error: Insufficient balance.
+Current Balance: 3000
+Remaining Balance: 3000
+
+Input 4:
+Enter PIN: 1234
+Enter withdrawal amount: abc
+Error: Invalid withdrawal amount.
+Current Balance: 3000
+Remaining Balance: 3000
+
+Problem 3: University Enrollment System
+
+Input 1:
+Enter the course you want to enroll in: Advanced Java
+Enter the courses you've completed (comma separated): Core Java
+Successfully enrolled in Advanced Java. Remaining slots: 1
+
+Input 2:
+Enter the course you want to enroll in: Advanced Java
+Enter the courses you've completed (comma separated): 
+Error: Complete Core Java before enrolling in Advanced Java.
+Remaining Balance: 3000
+
+Input 3:
+Enter the course you want to enroll in: Advanced Java
+Enter the courses you've completed (comma separated): Core Java
+Successfully enrolled in Advanced Java. Remaining slots: 1
+Enter the course you want to enroll in: Advanced Java
+Enter the courses you've completed (comma separated): Core Java
+Error: The course Advanced Java is full.
+Remaining Balance: 3000
